@@ -1,0 +1,49 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script src="semantic/dist/semantic.min.js"></script>
+
+  <script src="../dist/components/form.js"></script>
+  <script src="../dist/components/transition.js"></script>
+  </head>
+  <body>
+
+
+<script src="./index.js" type="text/javascript"></script>
+
+
+<p id = "error"></p>
+
+    
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+    apiKey: "AIzaSyD9C3z_T6oJ6-MsZN4Dtnp5RjTa8woS3jk",
+    authDomain: "geotogether-405ad.firebaseapp.com",
+    databaseURL: "https://geotogether-405ad.firebaseio.com",
+    projectId: "geotogether-405ad",
+    storageBucket: "geotogether-405ad.appspot.com",
+    messagingSenderId: "271294585129"
+  };
+      firebase.initializeApp(config);
+
+     addUser(getParameterByName("trip"), getParameterByName("email"));
+
+      //addUser("-L9iH7Fet1sT7Ltnvrw8", "taco@gmail.com");
+      //?trip=3&email=brandonljdfs@gmail.com
+
+
+      
+  </script>
+
+
+
+  
+
+  </body>
+  </html>
