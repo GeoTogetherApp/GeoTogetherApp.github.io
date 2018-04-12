@@ -51,7 +51,7 @@ function checkUserExists(Trip, Email){
 		                
 		        })
 		            if(gotUser == 0){
-		            	document.getElementById("error").innerHTML = "We were unable to find you in our system! :/ \n Please download the app and create a user in order to be added to the trip.";
+		            	document.getElementById("error").innerHTML = "We were unable to find you in our system! :/ \n Please check the invite and make sure the url in browser is correct.";
 		    
 		            }
 		            else{
