@@ -65,7 +65,7 @@ function checkUserExists(Trip, Email){
 function addToTrip(Trip, Email){
 
 	var count = 0;
-	document.getElementById("error").innerHTML = "You have succesfully been added as a member of this trip \n Have a wonderful day :)";
+	document.getElementById("error").innerHTML = "You have succesfully been added as a member of this trip, \n Have a wonderful day :)";
 		    
 
 	firebase.database().ref('trips/'+Trip+'/members').push(Email);
