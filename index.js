@@ -83,7 +83,7 @@ function addToTrip(Trip, Email){
 
 
 	//firebase.database().ref('trips/'+Trip+'/members').push(Email);
-	firebase.database().ref('trips/'+Trip+'/chats/groupChat/users').push(Email);
+	//firebase.database().ref('trips/'+Trip+'/chats/groupChat/users').push(Email);
 }
 
 
